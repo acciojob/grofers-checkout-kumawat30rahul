@@ -15,7 +15,7 @@ let amount = arr.reduce((sum,element) => {
     return sum + Number(element)
 },0)
 console.log(amount);
-document.getElementById('total').innerText = amount
+document.getElementById('ans').innerText = amount
   
 };
 
